@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2196f3">
+    <title>Mi Página Web</title>
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="icons/google_new_icon.png">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header class="encabezado">
+
+        <div class="logo">
+            Mi Página
+        </div>
+
+        <!-- Menú de navegación -->
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Sección Inicio -->
+        <section id="inicio" class="inicio">
+
+            <div class="inicio-contenido">
+
+                <h1>Bienvenido</h1>
+
+                <p>
+                    Esta es una página web sencilla creada
+                    con HTML, CSS y JavaScript.
+                </p>
+
+                <button id="botonMensaje">
+                    Haz clic aquí
+                </button>
+
+            </div>
+<img src="icons/google_new_icon.png" alt="Logo de la aplicación">
+        </section>
+
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros" class="seccion">
+
+            <h2>Nosotros</h2>
+
+            <p>
+                Somos un proyecto creado para aprender
+                y practicar desarrollo web.
+            </p>
+
+        </section>
+
+
+        <!-- Sección Servicios -->
+        <section id="servicios" class="seccion">
+
+            <h2>Servicios</h2>
+
+            <div class="contenedor-tarjetas">
+
+                <div class="tarjeta">
+                    <h3>Diseño Web</h3>
+                    <p>
+                        Diseño de páginas web sencillas
+                        y modernas.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Desarrollo</h3>
+                    <p>
+                        Desarrollo utilizando HTML,
+                        CSS y JavaScript.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Soporte</h3>
+                    <p>
+                        Ayuda para mejorar y mantener
+                        una página web.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="seccion">
+
+            <h2>Contacto</h2>
+
+            <form id="formulario">
+
+                <div class="campo">
+                    <label for="nombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        placeholder="Escribe tu nombre"
+                        required
+                    >
+                </div>
+
+
+                <div class="campo">
+                    <label for="correo">
+                        Correo
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        placeholder="ejemplo@correo.com"
+                        required
+                    >
+                </div>
+
+
+                <div class="campo">
+                    <label for="mensaje">
+                        Mensaje
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        placeholder="Escribe tu mensaje"
+                        required
+                    ></textarea>
+                </div>
+
+
+                <button type="submit" class="boton">
+                    Enviar
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Pie de página -->
+    <footer class="pie">
+
+        <p>
+            &copy; 2026 Mi Página Web
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
